@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+/*컨테이너*/
+#container{}
+
+/*메인슬라이더*/
+.mainSlider{position: relative;overflow: hidden; height: 600px;}
+.mainSlider a{}
+.mainSlider img{position: absolute; left: 50%; margin-left: -960px;}
+
+.silderBtn{position: absolute;}
+.silderBtn li{float: left; text-indent:-9999px;}
+.silderBtn li a{display: block;}
+/*왼쪽메인슬라이더버튼*/
+.lBtn {left:50%; margin-left: -600px; bottom: 30px;}
+.lBtn li{width: 16px; height: 16px; background: url(../images/main/blet_visual.png) no-repeat; margin-right: 3px;}
+.lBtn li:first-child{background-position: bottom;}
+/*오른쪽메인슬라이더버튼*/
+.rBtn {right: 50%; margin-right: -600px; bottom: 0px;}
+.rBtn li{width: 45px; height:45px; background: url(../images/main/btn_visual_cnt.png) no-repeat -46px 0;margin-left: 1px;}
+.rBtn li:first-child{background-position: 0 0px;}
+.rBtn li:last-child{background-position: -92px 0;}
+.rBtn li a{height: 45px;}
+
+/*메인컨텐츠*/
+.mainCon{overflow: hidden; position: relative;}
+
+
+/*컨텐츠1*/
+.mainCon01{width:100%;background:#1C97FE;padding: 49px 0}
+
+.con01{float: left; width: 273px; ; color: #fff; margin-right: 36px;}
+.con01:last-child{margin-right: 0;}
+.con01 h3{;font-weight: lighter; text-align: none;}
+.con01 a p{font-size:12px; font-weight: bold; color: #fff; letter-spacing: -2px;}
+.con01 img{margin: 15px 0 5px; width: 100%;}
+
+/*컨텐츠2*/
+.mainCon02{background: url(../images/main/brandSite_bg.png) no-repeat center center;background-size: cover; height: 530px; text-align: center;}
+.mainCon02 h2{padding: 70px 0 60px;}
+
+.con02 {float: left; width: 273px; margin-right: 36px;}
+.con02:last-child{margin-right: 0}
+.con02 p{padding: 20px 0; font-weight: bold; font-size: 16px; color: #000;}
+span{height: 10px;; margin: 0; display: inline; font-size: 12px; color: #000;}
+.view{letter-spacing: 2px;display: block; color: #fff; width: 120px; height: 40px; background: #263D94; margin: 0 auto; text-align: center; line-height: 40px; border-radius: 20px;}
+
+/*컨텐츠3*/
+.mainCon03{padding: 40px 0;}
+.mainCon03 h2{text-align: center;margin: 20px 0;;}
+
+.brandMenu{}
+.brandMenu li{float: left;width: 376px; margin-right: 36px;box-shadow: 0 3px 10px rgba(0,0,0,0.3);}
+.brandMenu li:last-child{margin-right: 0;}
+.brandMenu li img{width: 100%; display: block;}
+.brandMenu li h3{font-weight: bold;}
+.brandMenu li p{padding-bottom: 20px; font-size: 13px;}
+.brandMenu li a{margin: 0; background:#1C97FE; font-size: 15px; letter-spacing: 1px;}
+
+.brandInfo{padding: 20px;}

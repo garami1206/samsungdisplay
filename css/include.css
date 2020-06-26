@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{line-height: 80px; border-bottom: 1px solid #e5e5e5; margin-bottom: 30px;}
+
+#header h1{float: left; margin-right: 50px;}
+#header h1 a{}
+#header h1 img{}
+
+.gnb{float: left;}
+.gnb li{float: left; padding: 0 30px;}
+.gnb li a{font-weight: bold; color: black;}
+
+/*서브메뉴*/
+.lnb{position: absolute;}
+.lnb li{padding: 0; line-height: normal; height: auto; margin-right: 30px; }
+.lnb li a{font-weight: normal; font-size: 14px;}
+.lnb li:hover a{color: #1C97FE;}
+.lnb{display: none;}
+
+.gnb li:hover .lnb{display: block;}
+.gnb li:hover .Menu1{color:#1336BA; font-weight: bolder;}
+
+.lang{float: right;}
+.lang li{float: left;margin-left: 15px;}
+.lang li a{font-size: 13px; color: #555;}
+
+/*푸터*/
+#footer{font-size: 11px; color: #aaa; padding: 30px 0; border-top: 1px solid #e5e5e5}
+#footer .inner{position: relative;}
+
+.fLogo{display: inline-block; vertical-align: middle; margin-right: 20px;}
+.fLogo img{}
+
+.fInfo{display: inline-block;vertical-align: middle;}
+.fInfo p{}
+.fMenu{margin-bottom: 10px;}
+.fMenu li{float: left; letter-spacing: -1px;}
+.fMenu li:after{content: "";display: inline-block; width: 1px; height: 9px; background: #aaa;margin: 0 5px;}
+.fMenu li:last-child:after{display: none;}
+.fMenu li a{color: #aaa;}
+
+.fMark{position: absolute; right: 0; top: 0;}
+.fMark a {}
+.fMark a img{}
+

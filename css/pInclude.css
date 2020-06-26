@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*헤더*/
+#header{height: 60px; line-height: 60px; border-bottom: 1px solid #e5e5e5; margin-bottom: 30px;}
+#header h1{float: left;}
+#header a img{}
+
+.gnb{float: left; margin-left: 50px;}
+.gnb li{float: left; padding: 0 30px; position: relative; text-align: center;}
+.gnb li a{color: black; font-weight: bold; }
+.gnb li img{}
+
+.lang{float:right;}
+.lang li{float: left;}
+.lang li a{color: #555; font-size: 12px; font-weight: bold; margin-left: 15px;}
+.lang li:first-child a{color: #1C97FE}
+
+
+/*푸터*/
+#footer{font-size: 11px; color: #aaa; margin: 20px; border-top: 1px solid #eee; padding-top: 20px;}
+#footer .inner{position: relative;}
+.fLogo{display: inline-block; vertical-align: middle; margin-right: 20px;}
+
+.fInfo{display: inline-block; vertical-align: middle;}
+.fMenu{display: inline-block;margin-bottom: 10px;}
+.fMenu li{float: left; letter-spacing: -1px;}
+.fMenu li:after{content: "";display: inline-block; width: 1px; height: 9px; background: #eee; margin: 0 5px;}
+.fMenu li:last-child:after{display: none;}
+.fMenu li a{color: #aaa;}
+
+.fMark{position: absolute; right: 0; top: 0;}

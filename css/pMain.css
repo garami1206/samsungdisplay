@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*메인슬라이더*/
+.mainSlider{position: relative; overflow: hidden; height: 600px;}
+.mainSlider img{position: absolute;left: 50%; margin-left: -960px;}
+
+/*슬라이더버튼*/
+.sBtn{text-indent: -9999px; position: absolute;}
+.lBtn{right:50%; margin-right: 600px; bottom: 20px;}
+.lBtn a{display: block;}
+.lBtn li{float: left;background: url(../images/main/blet_visual.png) no-repeat; width: 16px; height: 16px; margin-right: 3px;}
+.lBtn li:first-child{background-position: bottom;}
+
+.rBtn{right: 50%; margin-right: -600px; bottom: 0;}
+.rBtn li{float: left;background: url(../images/main/btn_visual_cnt.png) no-repeat; background-position: -46px;width: 46px; height: 46px; margin-right: 1px;}
+.rBtn li:first-child{background-position: 0}
+.rBtn li:last-child{background-position: -92px}
+.rBtn a{display: block; height: 46px;}
+
+/*컨테이너*/
+.mainCon{}
+
+/*컨텐츠1*/
+.mainCon01{background: #1C97FE}
+
+.con01{float: left; width: 273px; margin-right: 36px; padding: 50px 0;}
+.con01:last-child{margin-right: 0;}
+.con01 img{margin: 7px 0;}
+.con01 a{color: #fff;}
+.con01 h3 a{font-weight: lighter; font-size: 23px;}
+.con01 p{font-size: 12px; letter-spacing: -2px; font-weight: bold; }
+
+/*컨텐츠2*/
+.mainCon02{text-align: center;padding: 60px 0; background: url(../images/main/brandSite_bg.png) center center; background-size:             cover}
+.mainCon02 h2{margin-bottom: 40px;}
+
+.con02{float: left; width: 273px; margin-right: 36px;}
+.con02:last-child{margin-right: 0;}
+.con02 img{width: 100%;}
+.con02 p{font-weight: bold; margin: 20px 0 30px;}
+.con02 a{font-size:15px;}
+.viewBtn{;background: #263D94;display: block; width: 120px; height: 32px; line-height: 32px; border-radius: 20px; color: #fff;
+        letter-spacing: 2px; margin: 0 auto;}
+
+/*컨텐츠3*/
+.mainCon03{padding: 60px 0;}
+.mainCon03 h2{text-align: center; margin-bottom: 40px;}
+
+.brandMenu{}
+.brandMenu li{float:left; width: 376px; margin-right: 36px; box-shadow: 0 3px 10px rgba(0,0,0,0.3);}
+.brandMenu li:last-child{margin-right: 0}
+.brandMenu li h3{}
+.brandMenu li img{width: 100%;}
+.brandMenu li p{padding-bottom: 20px;}
+.brandMenu li a{margin: 0; width: 110px;text-align: center; font-size: 14px; letter-spacing: 1px; background: #1C97FE; }
+
+.brandInfo{padding: 20px;}
